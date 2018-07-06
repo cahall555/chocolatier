@@ -1,0 +1,23 @@
+ /* The navbar container */
+ .topnav {
+    overflow: hidden;
+    background-color: rgba(194, 186, 192, 0.829);
+}
+
+/* Navbar links */
+.topnav a {
+    float: center;
+    display: block;
+    color:black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color:rgba(228, 102, 192, 0.829);
+    color:black;
+} 
