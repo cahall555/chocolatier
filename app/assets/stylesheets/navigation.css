@@ -1,23 +1,30 @@
- /* The navbar container */
- .topnav {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: rgba(194, 186, 192, 0.829);
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
 }
 
-/* Navbar links */
-.topnav a {
-    float: center;
+li {
+    float: right;
+}
+
+li a {
     display: block;
-    color:black;
-    text-align: right;
+    color: black;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace; 
-    font-weight: bold;
 }
 
-/* Links - change color on hover */
-.topnav a:hover {
-    background-color:rgba(228, 102, 192, 0.829);
-    color:black;
-} 
+a:hover:not(.active) {
+    background-color:silver;
+}
+
+.active {
+background-color: slategrey;
+color: white;
+}

@@ -1,0 +1,19 @@
+.header {
+    background-image: url('homeheader.jpg');
+    background-repeat: no-repeat;
+    background:black;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+
+.image {
+    max-width:100%;
+    height:auto;
+    }
+    img {
+        vertical-align:middle;
+    }
+    a {
+        color:inherit;
+    }
